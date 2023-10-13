@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_widget_description"
+    android:initialKeyguardLayout="@layout/monster_timer2x1"
+    android:initialLayout="@layout/monster_timer2x1"
+    android:minWidth="110dp"
+    android:minHeight="40dp"
+    android:padding="8dp"
+    android:previewImage="@drawable/example_appwidget_preview"
+    android:previewLayout="@layout/monster_timer2x1"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="60000"
+    android:widgetCategory="home_screen" />
