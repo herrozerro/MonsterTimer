@@ -56,7 +56,7 @@ fun CountdownUI() {
     ) {
         Text(text = "Monster Refresh: $countDownText")
         Spacer(modifier = Modifier.height(5.dp))
-        Text(text = "Monster Refresh: $worldCountDownText")
+        Text(text = "Biome Refresh: $worldCountDownText")
     }
 }
 
